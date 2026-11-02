@@ -26,3 +26,7 @@ The included Beszel configuration publishes current systems, system details, and
 - [Beszel](https://tobiaswaelde.github.io/pocketbase-mqtt-bridge/beszel)
 - [Docker deployment](https://tobiaswaelde.github.io/pocketbase-mqtt-bridge/deployment)
 - [Changelog](CHANGELOG.md)
+
+## Development toolchain
+
+Use Node.js 26.13.0 LTS and the package manager pinned in `package.json`. Node-based application runtimes require Node.js 26. Dependency overrides, where present, pin security fixes for transitive packages; validate tests and documentation builds when changing them.
