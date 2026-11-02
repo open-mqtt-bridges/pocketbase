@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0
+
+### Major Changes
+
+- [#54](https://github.com/tobiaswaelde/pocketbase-mqtt-bridge/pull/54) [`94b9c78`](https://github.com/tobiaswaelde/pocketbase-mqtt-bridge/commit/94b9c78d1ea2868881ed088694a1c4b34e47b895) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Update stable dependencies and security fixes, and move development, CI, and application images to Node.js 26 LTS. Application container runtimes use Node.js 26; published library and VS Code host compatibility is preserved. TypeScript 7 builds use the TypeScript 6 compatibility API for lint and test tooling.
+
 ## 0.1.3
 
 ### Patch Changes
