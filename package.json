@@ -1,6 +1,6 @@
 {
   "name": "pocketbase-mqtt-bridge",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "private": true,
   "description": "PocketBase MQTT Bridge publishes PocketBase collections to MQTT.",
   "packageManager": "pnpm@12.16.1",
