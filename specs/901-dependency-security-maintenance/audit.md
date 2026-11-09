@@ -47,4 +47,8 @@ GitHub API readback confirms Dependabot alerts, secret scanning and secret-scann
 
 ## Delivery
 
-One consolidated PR will close the linked issue. Existing matching Dependabot PRs remain open and are linked as superseded. Required CI must pass on the PR current head before any separately authorized merge. No release, deployment or release-PR merge was performed.
+PR: https://github.com/open-mqtt-bridges/pocketbase/pull/67; closes #66. Existing matching Dependabot PRs remain open and are linked as superseded. Required CI must pass on the PR current head before any separately authorized merge. No release, deployment or release-PR merge was performed.
+
+## Hosted CI evidence
+
+All reported checks on implementation head `eb565ba053a5e41b237d32403ce9595b6baa4e80` completed without failures at 2026-11-09T13:23:15.934296+00:00. Deployment jobs were intentionally skipped on the PR. CodeQL PR analysis completed for the supported source language. This final documentation-only task update follows that successful implementation verification; the current PR checks remain authoritative before merge.
