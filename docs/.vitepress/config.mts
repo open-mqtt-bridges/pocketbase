@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'PocketBase MQTT Bridge',
   description: 'Publish PocketBase collection state and events to MQTT.',
-  base: '/pocketbase-mqtt-bridge/',
+  base: '/pocketbase/',
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
@@ -23,9 +23,9 @@ export default defineConfig({
       { text: 'Troubleshooting', link: '/troubleshooting' },
     ],
     editLink: {
-      pattern: 'https://github.com/tobiaswaelde/pocketbase-mqtt-bridge/edit/main/docs/:path',
+      pattern: 'https://github.com/tobiaswaelde/pocketbase/edit/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/tobiaswaelde/pocketbase-mqtt-bridge' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/open-mqtt-bridges/pocketbase' }],
   },
 });
