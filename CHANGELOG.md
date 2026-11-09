@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+### Patch Changes
+
+- [#67](https://github.com/open-mqtt-bridges/pocketbase/pull/67) [`eb565ba`](https://github.com/open-mqtt-bridges/pocketbase/commit/eb565ba053a5e41b237d32403ce9595b6baa4e80) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Update compatible runtime dependencies and remediate vulnerable transitive tooling while preserving the existing MQTT and configuration contracts.
+
 ## 1.0.0
 
 ### Major Changes
