@@ -1,12 +1,12 @@
 # PocketBase MQTT Bridge
 
-[![CI](https://img.shields.io/github/actions/workflow/status/tobiaswaelde/pocketbase-mqtt-bridge/ci.yml?style=for-the-badge&label=CI)](https://github.com/tobiaswaelde/pocketbase-mqtt-bridge/actions/workflows/ci.yml)
-[![Docs](https://img.shields.io/github/actions/workflow/status/tobiaswaelde/pocketbase-mqtt-bridge/docs.yml?style=for-the-badge&label=Docs)](https://github.com/tobiaswaelde/pocketbase-mqtt-bridge/actions/workflows/docs.yml)
-[![Deploy](https://img.shields.io/github/actions/workflow/status/tobiaswaelde/pocketbase-mqtt-bridge/deploy.yml?style=for-the-badge&label=Deploy)](https://github.com/tobiaswaelde/pocketbase-mqtt-bridge/actions/workflows/deploy.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/open-mqtt-bridges/pocketbase/ci.yml?style=for-the-badge&label=CI)](https://github.com/open-mqtt-bridges/pocketbase/actions/workflows/ci.yml)
+[![Docs](https://img.shields.io/github/actions/workflow/status/open-mqtt-bridges/pocketbase/docs.yml?style=for-the-badge&label=Docs)](https://github.com/open-mqtt-bridges/pocketbase/actions/workflows/docs.yml)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/open-mqtt-bridges/pocketbase/deploy.yml?style=for-the-badge&label=Deploy)](https://github.com/open-mqtt-bridges/pocketbase/actions/workflows/deploy.yml)
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-tobiaswaelde-FFDD00?style=for-the-badge&logo=buymeacoffee)](https://www.buymeacoffee.com/tobiaswaelde)
 
-Publish selected PocketBase collections to MQTT as non-retained events, a retained latest record, or retained state per record. Full documentation is published at [tobiaswaelde.github.io/pocketbase-mqtt-bridge](https://tobiaswaelde.github.io/pocketbase-mqtt-bridge/).
+Publish selected PocketBase collections to MQTT as non-retained events, a retained latest record, or retained state per record. Full documentation is published at [open-mqtt-bridges.github.io/pocketbase](https://open-mqtt-bridges.github.io/pocketbase/).
 
 ## Quick start
 
@@ -20,13 +20,17 @@ The included Beszel configuration publishes current systems, system details, and
 
 ## Documentation
 
-- [Getting started](https://tobiaswaelde.github.io/pocketbase-mqtt-bridge/getting-started)
-- [Configuration](https://tobiaswaelde.github.io/pocketbase-mqtt-bridge/configuration)
-- [MQTT contract](https://tobiaswaelde.github.io/pocketbase-mqtt-bridge/mqtt)
-- [Beszel](https://tobiaswaelde.github.io/pocketbase-mqtt-bridge/beszel)
-- [Docker deployment](https://tobiaswaelde.github.io/pocketbase-mqtt-bridge/deployment)
+- [Getting started](https://open-mqtt-bridges.github.io/pocketbase/getting-started)
+- [Configuration](https://open-mqtt-bridges.github.io/pocketbase/configuration)
+- [MQTT contract](https://open-mqtt-bridges.github.io/pocketbase/mqtt)
+- [Beszel](https://open-mqtt-bridges.github.io/pocketbase/beszel)
+- [Docker deployment](https://open-mqtt-bridges.github.io/pocketbase/deployment)
 - [Changelog](CHANGELOG.md)
 
 ## Development toolchain
 
 Use Node.js 26.13.0 LTS and the package manager pinned in `package.json`. Node-based application runtimes require Node.js 26. Dependency overrides, where present, pin security fixes for transitive packages; validate tests and documentation builds when changing them.
+
+## Contributing
+
+See the [development guide](docs/development.md) for the pinned toolchain, checks and Spec Kit usage, and the [organization contribution guide](https://github.com/open-mqtt-bridges/.github/blob/main/CONTRIBUTING.md) for pull requests.
