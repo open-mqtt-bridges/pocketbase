@@ -28,7 +28,7 @@
     "eventsource": "^5.1.4",
     "js-yaml": "^5.5.0",
     "mqtt": "^5.16.1",
-    "pocketbase": "^0.28.2",
+    "pocketbase": "^0.29.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2"
   },
