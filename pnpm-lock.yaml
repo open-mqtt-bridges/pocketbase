@@ -199,8 +199,8 @@ importers:
         specifier: ^5.16.1
         version: 5.16.1(supports-color@8.1.1)
       pocketbase:
-        specifier: ^0.28.2
-        version: 0.28.2
+        specifier: ^0.29.0
+        version: 0.29.0
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -2986,8 +2986,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  pocketbase@0.28.2:
-    resolution: {integrity: sha512-5lS4g7iDZi90LxLai8kyUK4r5u1GkEAoZ3yuzTEFX97FyDQAoEmXWbTqf+pYA1hz5e/icBQu1MCUjM/9V8mitg==}
+  pocketbase@0.29.0:
+    resolution: {integrity: sha512-GIEcwI9zTeK++TMV97nIjMbcLvzTzvbQQF32af5WikWQpELHQosI5Rb6+y1ikVL2ezl0X+Itd9ds1USpYvGYug==}
 
   postcss@8.5.32:
     resolution: {integrity: sha512-LJlKCCAUFKOuZxipUdYw1NzIITEsPcgyOG9LkvRJvuKj/bRzbuRY0ARXvL0pWGpsZvn8jku+LMep2eU0seHp8g==}
@@ -6529,7 +6529,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  pocketbase@0.28.2: {}
+  pocketbase@0.29.0: {}
 
   postcss@8.5.32:
     dependencies:
